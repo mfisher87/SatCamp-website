@@ -10,7 +10,7 @@ lerna-debug.log*
 node_modules
 
 # Yarn
-.yarn/install-state.gz
+.yarn/
 package-lock.json
 
 dist
