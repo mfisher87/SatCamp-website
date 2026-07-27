@@ -10,7 +10,7 @@ build:
 
   commands:
     - "corepack enable"
-    - "yarn install"
+    - "yarn install --immutable"
     - "yarn build"
 
     - "mkdir --parents $READTHEDOCS_OUTPUT/html/"
