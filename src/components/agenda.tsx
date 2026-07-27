@@ -15,7 +15,7 @@ export function AgendaSection(props: {dark?: boolean}) {
           <Item>1:00pm Registration Opens</Item>
           <Item>2:00pm Official Welcome</Item>
           <Item>2:30pm Small Group Meet & Greet</Item>
-          <Item>3:30pm Lightning Talks Round 1</Item>
+          <Item>3:30pm <a className="underline underline-offset-2" href="#sessions">Lightning Talks Round 1</a></Item>
           <Item>4:30pm Keynote Presentation</Item>
           <Item>5:00pm Cabin Check-In / Head Downtown</Item>
           <Item>6:30pm Happy Hour @ <a href="https://www.avantifandb.com/location/avanti-boulder/">Avanti</a></Item>
@@ -40,7 +40,7 @@ export function AgendaSection(props: {dark?: boolean}) {
           <Item>9:00am Panel 2</Item>
           <Item>10:00am Outdoor Activities</Item>
           <Item>1:00pm Lunch (provided)</Item>
-          <Item>2:00pm Lightning Talks Round 2</Item>
+          <Item>2:00pm <a className="underline underline-offset-2" href="#sessions">Lightning Talks Round 2</a></Item>
           <Item>3:00pm Closing Remarks</Item>
           <Item>[Optional] 4:00pm+ Happy Hour @ <a href="https://www.therayback.com/">Rayback Collective</a></Item>
         </List>
