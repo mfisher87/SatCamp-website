@@ -28,7 +28,7 @@ export function AgendaSection(props: {dark?: boolean}) {
           <Item>1:00pm Lunch (provided)</Item>
           <Item>2:00pm Panel 1</Item>
           <Item>3:15pm Break</Item>
-          <Item>3:45pm Presentations</Item>
+          <Item>3:45pm <a className="underline underline-offset-2" href="#sessions">Show & Tell</a></Item>
           <Item>4:45pm Small Group Activity</Item>
           <Item>5:30pm Small Group Dinners (self-organized)</Item>
         </List>
