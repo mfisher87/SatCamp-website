@@ -6,7 +6,7 @@ import Web from "../assets/images/globe.svg?react";
 import Medium from "../assets/images/medium.svg?react";
 import YouTube from "../assets/images/youtube.svg?react";
 
-export function LightningTalksSection() {
+export function PastLightningTalksSection() {
   return (
     <Section dark id="lightning">
       <LeftColumn>
