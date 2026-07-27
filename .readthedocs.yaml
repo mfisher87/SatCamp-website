@@ -9,9 +9,8 @@ build:
     nodejs: "24"
 
   commands:
-    - "corepack enable"
-    - "yarn install --immutable"
-    - "yarn build"
+    - "corepack yarn install --immutable"
+    - "corepack yarn build"
 
     - "mkdir --parents $READTHEDOCS_OUTPUT/html/"
     - "mv dist/* $READTHEDOCS_OUTPUT/html/."
