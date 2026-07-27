@@ -9,7 +9,9 @@ build:
     nodejs: "24"
 
   commands:
-    - "corepack yarn install --immutable"
+    # Should be immutable, but the lockfile is way out of date.
+    # TODO: Change back to immutable after merging <https://github.com/satcamp/SatCamp-website/pull/14>
+    - "corepack yarn install --no-immutable"
     - "corepack yarn build"
 
     - "mkdir --parents $READTHEDOCS_OUTPUT/html/"
