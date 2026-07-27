@@ -33,8 +33,12 @@ const PastCampsDropdown = () => (
     </Button>
     <MenuContent className="bg-white">
       {PAST_CAMPS.map((camp) =>
-        <MenuItem key={camp.label}>
-          <a href={withBase(camp.url)}>{camp.label}</a>
+        <MenuItem
+          key={camp.label}
+          href={withBase(camp.url)}
+          className="data-[hovered]:bg-neutral-200"
+        >
+          {camp.label}
         </MenuItem>
       )}
     </MenuContent>
