@@ -10,8 +10,8 @@ lerna-debug.log*
 node_modules
 
 # Yarn
-.yarn/install-state.gz  # local cache file
-package-lock.json  # use yarn.lock instead
+.yarn/install-state.gz
+package-lock.json
 
 dist
 dist-ssr
