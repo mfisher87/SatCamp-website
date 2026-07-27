@@ -1,0 +1,16 @@
+# For this project, we use ReadTheDocs only for Pull Request previews. GitHub
+# pages currently hosts the actual website.
+version: 2
+
+
+build:
+  os: "ubuntu-lts-latest"
+  tools:
+    node: "24"
+
+  commands:
+    - "yarn install"
+    - "yarn build"
+
+    - "mkdir --parents $READTHEDOCS_OUTPUT/html/"
+    - "mv dist/* $READTHEDOCS_OUTPUT/html/."
