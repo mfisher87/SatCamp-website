@@ -8,7 +8,7 @@ import {
   RightColumn,
 } from "./sections";
 
-export function SessionsSection(props: {dark: boolean}) {
+export function SessionsSection(props: {dark?: boolean}) {
   return (
     <Section dark={props.dark} id="sessions">
       <LeftColumn>

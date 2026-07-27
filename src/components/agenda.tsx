@@ -1,6 +1,6 @@
 import { SectionTitle, SubSectionTitle, LocationDesc, List, Item, Section, LeftColumn, RightColumn } from "./sections";
 
-export function AgendaSection(props: {dark: boolean}) {
+export function AgendaSection(props: {dark?: boolean}) {
   return (
     <Section dark={props.dark} id="agenda">
       <LeftColumn>
