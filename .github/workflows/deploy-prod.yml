@@ -38,7 +38,8 @@ jobs:
           node-version: 24
           cache: 'yarn'
       - name: Install dependencies
-        run: yarn install
+        # TODO: Remove --no-immutable after <https://github.com/satcamp/SatCamp-website/pull/14> is merged
+        run: yarn install --no-immutable
       - name: Build
         run: yarn build
       - name: SPA fallback for GitHub Pages
