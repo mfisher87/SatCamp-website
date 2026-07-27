@@ -2,7 +2,7 @@ import type { HTMLAttributes } from "react";
 
 
 export const Section = (
-  { children, dark, className="", id }: HTMLAttributes<HTMLElement> & { dark: boolean, className?: string, id?: string }
+  { children, dark, className="", id }: HTMLAttributes<HTMLElement> & { dark?: boolean, className?: string, id?: string }
   ) =>
   <section
     id={id}
