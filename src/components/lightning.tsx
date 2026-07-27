@@ -6,9 +6,9 @@ import Web from "../assets/images/globe.svg?react";
 import Medium from "../assets/images/medium.svg?react";
 import YouTube from "../assets/images/youtube.svg?react";
 
-export function PastLightningTalksSection() {
+export function PastLightningTalksSection(props: {dark: boolean}) {
   return (
-    <Section dark id="lightning">
+    <Section dark={props.dark} id="lightning">
       <LeftColumn>
         <SectionTitle>Previous Lightning Talks</SectionTitle>
       </LeftColumn>

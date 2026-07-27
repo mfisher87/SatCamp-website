@@ -15,11 +15,11 @@ function App() {
     <>
       <IntroductionSection />
       <TenetsSection />
-      <ThemesSection />
+      <ThemesSection dark />
       {/* <DiscussionsSection /> */}
       <LogisticsSection />
       <AgendaSection />
-      <PastLightningTalksSection />
+      <PastLightningTalksSection dark />
       <ActivitiesSection />
       <ScrollToAnchor />
     </>
