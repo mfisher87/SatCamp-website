@@ -9,6 +9,7 @@ build:
     nodejs: "24"
 
   commands:
+    - "corepack enable"
     - "yarn install"
     - "yarn build"
 
