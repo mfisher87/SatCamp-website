@@ -35,7 +35,7 @@ const MenuContent = ({
   className,
   ...props
 }: PopoverProps & { className?: string }) => (
-  <Popover isNonModal {...props} className={menuPopover()}>
+  <Popover {...props} className={menuPopover()}>
     <AriaMenu className={content({ className })}>{children}</AriaMenu>
   </Popover>
 );
