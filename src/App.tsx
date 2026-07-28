@@ -5,7 +5,8 @@ import { TenetsSection } from "./components/tenets";
 import { ThemesSection } from "./components/themes";
 import { LogisticsSection } from "./components/logistics";
 import { AgendaSection } from "./components/agenda";
-import { LightningTalksSection } from "./components/lightning";
+import { SessionsSection } from "./components/sessions";
+import { PastLightningTalksSection } from "./components/lightning";
 import { ActivitiesSection } from "./components/activities";
 import { ScrollToAnchor } from "./components/scroll";
 
@@ -15,11 +16,12 @@ function App() {
     <>
       <IntroductionSection />
       <TenetsSection />
-      <ThemesSection />
+      <ThemesSection dark />
       {/* <DiscussionsSection /> */}
       <LogisticsSection />
       <AgendaSection />
-      <LightningTalksSection />
+      <SessionsSection dark />
+      <PastLightningTalksSection />
       <ActivitiesSection />
       <ScrollToAnchor />
     </>
