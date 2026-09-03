@@ -60,14 +60,19 @@ export function SessionsSection(props: {dark?: boolean}) {
 
         <SubSectionTitle>Panel: The Last Mile of Geo</SubSectionTitle>
 
-        <p>TODO: Description text here</p>
+        <p>
+          So many good ideas shrivel up and never reach the size needed to make an impact.
+          Hear from geospatial organization leaders on how make it over the valley of death
+          and reach the last mile.
+        </p>
         <br/>
 
         <List>
-          <Item>Jason Setzer, head of product at Hydrosat</Item>
+          <Item>Jason Setzer, Head of Product at Hydrosat</Item>
           <Item>Jon Saints, Air Programs at Waste Management, former CTO of BlueSky</Item>
-          <Item>Shay Har-Noy, Managing Director at Tech Stars</Item>
-          <Item>Paige Holland-Thielen, Spacecraft operations at Muon</Item>
+          <Item>Shay Har-Noy, Managing Director at Techstars</Item>
+          <Item>Paige Holland-Thielen, Sr. Manager of Spacecraft Operations at Muon</Item>
+          <Item>Moderated by Chloe Hampton at Hydrosat</Item>
         </List>
 
 
