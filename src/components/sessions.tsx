@@ -75,15 +75,20 @@ export function SessionsSection(props: {dark?: boolean}) {
 
         <p>
           <i>Exploring Alignment of Personal Ethics with Dual-Use Geospatial Technology: </i>
-          Dual-use technology is in our sector&apos;s DNA, and defense funding props up much of the industry.
-          <i> TODO: More!</i>
+          Dual-use technology is in our sector&apos;s DNA, and defense funding props up
+          much of the industry.
+          Yet many organizations aim to only build open (non-military) products.
+          How do you as an individual find your internal compass to navigate
+          the ethical dimensions of your work?
         </p>
         <br/>
 
         <List>
-          <Item>TODO:</Item>
-          <Item>Panelists</Item>
-          <Item>Here</Item>
+          <Item>Daniela Moody, Chief Product and Capabilities Officer at Parallax Advanced Research</Item>
+          <Item>Ben Tuttle, Technical Director at General Atomics Integrated Intelligence</Item>
+          <Item>Zia Mehrabi, Professor & Director of the Better Planet Lab at CU Boulder</Item>
+          <Item>Ian Schuler, CEO at Development Seed</Item>
+          <Item>Moderated by Isaiah Lyons-Galante at CU Boulder</Item>
         </List>
 
       </RightColumn>
