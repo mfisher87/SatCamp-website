@@ -73,7 +73,11 @@ export function SessionsSection(props: {dark?: boolean}) {
 
         <SubSectionTitle>Panel: Where's Your Line?</SubSectionTitle>
 
-        <p>TODO: Description text here</p>
+        <p>
+          <i>Exploring Alignment of Personal Ethics with Dual-Use Geospatial Technology: </i>
+          Dual-use technology is in our sector&apos;s DNA, and defense funding props up much of the industry.
+          <i> TODO: More!</i>
+        </p>
         <br/>
 
         <List>
