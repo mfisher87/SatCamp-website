@@ -42,6 +42,7 @@ export function SessionsSection(props: {dark?: boolean}) {
           </Item>
         </List>
 
+        <br/>
         <p>
           Lightning Talks are meant to be fun and informal.
           If you're looking for inspiration, you can see <a className="underline underline-offset-2" href="#lightning">examples of previous lightning talks</a> below.
@@ -70,7 +71,7 @@ export function SessionsSection(props: {dark?: boolean}) {
         </List>
 
 
-        <SubSectionTitle>Panel: Where's Your Line?
+        <SubSectionTitle>Panel: Where's Your Line?</SubSectionTitle>
 
         <p>TODO: Description text here</p>
         <br/>
