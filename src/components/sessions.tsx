@@ -15,10 +15,12 @@ export function SessionsSection(props: {dark?: boolean}) {
         <SectionTitle>Sessions</SectionTitle>
       </LeftColumn>
       <RightColumn>
+
+
         <SubSectionTitle>Sign up!</SubSectionTitle>
         
         <p>
-          Please fill out our <a className="underline underline-offset-2" href="https://docs.google.com/forms/d/e/1FAIpQLSciLlkYU89GdCJjyA-9aRT9MDqcymOyRoId3bUhpap0q_pJHQ/viewform">interest form</a> if you'd like to present at any of the following sessions.
+          Please fill out our <a className="underline underline-offset-2" href="https://docs.google.com/forms/d/e/1FAIpQLSciLlkYU89GdCJjyA-9aRT9MDqcymOyRoId3bUhpap0q_pJHQ/viewform">interest form</a> if you&apos;d like to present in our Lightning Talks or Show & Tell sessions!
         </p>
 
 
@@ -53,6 +55,19 @@ export function SessionsSection(props: {dark?: boolean}) {
           This science-fair-style format provides space for presenters to allow the audience to interact with their work.
           Bring your laptop and/or other equipment!
         </p>
+
+
+        <SubSectionTitle>Panel: The Last Mile of Geo</SubSectionTitle>
+
+        <p>TODO: Description text here</p>
+        <br/>
+
+        <List>
+          <Item>Jason Setzer, head of product at Hydrosat</Item>
+          <Item>Jon Saints, Air Programs at Waste Management, former CTO of BlueSky</Item>
+          <Item>Shay Har-Noy, Managing Director at Tech Stars</Item>
+          <Item>Paige Holland-Thielen, Spacecraft operations at Muon</Item>
+        </List>
 
       </RightColumn>
     </Section>
