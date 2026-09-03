@@ -37,7 +37,7 @@ export function AgendaSection(props: {dark?: boolean}) {
           <LocationDesc>Grand Assembly Hall</LocationDesc>
           <Item>8:00am Cabin Checkout (deadline 10:30am)</Item>
           <Item>8:00am Breakfast (provided)</Item>
-          <Item>9:00am Panel: Where's your line? Exploring Alignment of Personal Ethics with Dual-Use Geospatial Technology</Item>
+          <Item>9:00am <a className="underline underline-offset-2" href="#sessions">Panel: Where's Your Line? Exploring Alignment of Personal Ethics with Dual-Use Geospatial Technology</a></Item>
           <Item>10:00am Outdoor Activities</Item>
           <Item>1:00pm Lunch (provided)</Item>
           <Item>2:00pm <a className="underline underline-offset-2" href="#sessions">Lightning Talks Round 2</a></Item>
