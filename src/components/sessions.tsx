@@ -69,6 +69,18 @@ export function SessionsSection(props: {dark?: boolean}) {
           <Item>Paige Holland-Thielen, Spacecraft operations at Muon</Item>
         </List>
 
+
+        <SubSectionTitle>Panel: Where's Your Line?
+
+        <p>TODO: Description text here</p>
+        <br/>
+
+        <List>
+          <Item>TODO:</Item>
+          <Item>Panelists</Item>
+          <Item>Here</Item>
+        </List>
+
       </RightColumn>
     </Section>
   );
