@@ -61,9 +61,11 @@ export function SessionsSection(props: {dark?: boolean}) {
         <SubSectionTitle>Panel: The Last Mile of Geo</SubSectionTitle>
 
         <p>
-          So many good ideas shrivel up and never reach the size needed to make an impact.
-          Hear from geospatial organization leaders on how make it over the valley of death
-          and reach the last mile.
+          In tune with our theme, this panel explores what it takes to turn a
+          promising geospatial or remote sensing concept into a viable product.
+          This panel brings together diverse perspectives to discuss why great
+          ideas succeed or crash, exploring how timing, market fit, leadership
+          and fundraising build a path to long-term growth and success.
         </p>
         <br/>
 
